@@ -1,0 +1,9 @@
+rootProject3/.idea/**
+rootProject3/.gradle/**
+rootProject3/gradlew*
+rootProject3/gradle.bat
+rootProject3/build/**
+
+
+rootProject3/cargaDeDatos/build/**
+rootProject3/grupo12-p2-tads/build/**
