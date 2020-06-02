@@ -1,5 +1,0 @@
-
-rootProject.name = 'rootProject3'
-
-include 'grupo12-p2-tads'
-include 'cargaDeDatos'
