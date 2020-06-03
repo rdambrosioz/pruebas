@@ -2,14 +2,14 @@ public class Book {
 
     private Long book_id;
     private String isbn;
-    private String authors;
-    private int original_publication_year;
+    private String[] authors;
+    private Integer original_publication_year;
     private String original_title;
     private String title;
     private String language_code;
     private String image_url;
 
-    public Book(Long book_id, String isbn, String authors, int original_publication_year, String original_title, String title, String language_code, String image_url) {
+    public Book(long book_id, String isbn, String[] authors, int original_publication_year, String original_title, String title, String language_code, String image_url) {
         this.book_id = book_id;
         this.isbn = isbn;
         this.authors = authors;
@@ -24,7 +24,7 @@ public class Book {
         if (args.length == 8){
             this.book_id = Long.parseLong(args[0]);
             this.isbn = args[1];
-            this.authors = args[2];
+            this.authors[0] = args[2];
             this.original_publication_year = Integer.parseInt(args[3]);
             this.original_title = args[4];
             this.title = args[5];
